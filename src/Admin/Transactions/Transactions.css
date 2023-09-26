@@ -1,0 +1,123 @@
+.transactions-page {
+    background-color: rgb(229, 229, 229);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.transactions-page h1 {
+  margin-left: 60px;
+  margin-top: 20px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 34px;
+  letter-spacing: 2.6px;
+  word-spacing: 4.6px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+}
+.transactions-page strong {
+font-weight: bold; 
+}
+  
+.transactions-page table {
+background: #f5f5f5;
+border-collapse: separate;
+box-shadow: inset 0 1px 0 #fff;
+font-size: 20px;
+line-height: 24px;
+margin: 30px auto;
+text-align: left;
+width: 1200px;
+} 
+
+.transactions-page th {
+background: url(https://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+border-left: 1px solid #555;
+border-right: 1px solid #777;
+border-top: 1px solid #555;
+border-bottom: 1px solid #333;
+box-shadow: inset 0 1px 0 #999;
+color: #fff;
+font-weight: bold;
+padding: 10px 15px;
+position: relative;
+text-shadow: 0 1px 0 #000;  
+}
+
+.transactions-page th:after {
+background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+content: '';
+display: block;
+height: 25%;
+left: 0;
+margin: 1px 0 0 0;
+position: absolute;
+top: 25%;
+width: 100%;
+}
+
+.transactions-page th:first-child {
+border-left: 1px solid #777;  
+box-shadow: inset 1px 1px 0 #999;
+}
+
+.transactions-page th:last-child {
+box-shadow: inset -1px 1px 0 #999;
+}
+
+.transactions-page td {
+border-right: 1px solid #fff;
+border-left: 1px solid #e8e8e8;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #e8e8e8;
+padding: 10px 15px;
+position: relative;
+transition: all 300ms;
+color: black;
+}
+
+.transactions-page td:first-child {
+box-shadow: inset 1px 0 0 #fff;
+} 
+
+.transactions-page td:last-child {
+border-right: 1px solid #e8e8e8;
+box-shadow: inset -1px 0 0 #fff;
+} 
+
+.transactions-page tr {
+background: url(https://jackrugile.com/images/misc/noise-diagonal.png); 
+}
+
+.transactions-page tr:nth-child(odd) td {
+background: #f1f1f1 url(https://jackrugile.com/images/misc/noise-diagonal.png); 
+}
+
+.transactions-page tr:last-of-type td {
+box-shadow: inset 0 -1px 0 #fff; 
+}
+
+.transactions-page tr:last-of-type td:first-child {
+box-shadow: inset 1px -1px 0 #fff;
+} 
+
+.transactions-page tr:last-of-type td:last-child {
+box-shadow: inset -1px -1px 0 #fff;
+} 
+
+.transactions-page tbody:hover td {
+color: transparent;
+text-shadow: 0 0 3px #aaa;
+}
+
+.transactions-page tbody:hover tr:hover td {
+color: #444;
+text-shadow: 0 1px 0 #fff;
+}
+
+.my-table {
+    width: 100%;
+}

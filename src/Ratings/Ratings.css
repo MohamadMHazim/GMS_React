@@ -1,0 +1,89 @@
+.ratings-page{
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  min-height: 100vh;
+  height: 100%;
+  display: block;
+  justify-content: center;
+}
+
+.ratings-page{
+  background: #141313;
+}
+
+.star-wrapper {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.rev-box{
+  overflow: hidden;
+  height: auto;
+  width: 45%;
+  transition: all .25s;
+  background-color: rgb(249, 243, 243);
+  margin: auto;
+  text-align: center;
+}
+
+.ratings-page input{
+  background: #222;
+  border: none;
+  width: 100%;
+  max-width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  color: #EEE;
+}
+
+.ratings-page label.review{
+  display: block;
+  transition:opacity .25s;
+}
+
+.ratings-page input.star:checked ~ .rev-box{
+  height: 125px;
+  overflow: visible;
+}
+
+.star-wrapper a {
+    font-size: 4em;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin: 4px;
+}
+.star-wrapper a:hover {
+color: gold;
+transform: scale(1.3);
+}   
+.s1:hover ~ a {
+color: gold;
+}
+.s2:hover ~ a {
+color: gold;
+}
+.s3:hover ~ a {
+color: gold;
+}
+.s4:hover ~ a {
+color: gold;
+}
+.s5:hover ~ a {
+color: gold;
+}
+
+.ratings-page h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+.ratings-page ul {
+  display: block;
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+

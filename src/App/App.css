@@ -1,0 +1,212 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url(./Background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#little {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 22px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+}
+
+#login-button {
+  width: 90px;
+  height: 50px;
+  color: white;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: #640101;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+}
+
+#butt {
+  color: white;
+  background-color: #640101;
+  border: 3px solid black;
+  border-radius: 25px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+  width: 120px;
+  height: 50px;
+  margin: auto;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+}
+
+
+#butt:hover,#butt:focus, #butt.active,
+#login-button:hover,#login-button:focus,#login-button.active{
+  box-shadow: oldlace;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 415px) {  
+  .div1 {
+    font-size: 18px;
+  }
+
+  #little {
+    font-size: 16px;
+  }
+
+  #butt {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+
+  #button1 {
+    all: unset;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #8B0000 !important;
+    padding: 5px 5px;
+    border-radius: 20px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+  }
+
+
+  #button1 {
+    padding: 1px 1px;
+    font-size: 12px;
+  }
+
+
+  .but {
+    margin-top: -100px;
+  }
+
+
+  .app {
+    grid-template-rows: auto 1fr;
+    overflow-x: auto;
+    background-position: center;
+  }
+
+  .but {
+    position: static;
+    margin-top: 0;
+  }
+
+  #mainli {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #mainli a {
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+
+  li a {
+    margin-left: 0;
+    font-size: 5px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .div1 {
+    font-size: 20px;
+  }
+
+  #little {
+    font-size: 20px;
+  }
+
+  #butt {
+    padding: 5px 5px;
+    font-size: 14px;
+  }
+
+  #lButton {
+    all: unset;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #8B0000 !important;
+    padding: 5px 5px;
+    border-radius: 20px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+  }
+
+
+  #button1 {
+    padding: 1px 1px;
+    font-size: 12px;
+  }
+
+  .but {
+    margin-top: -100px;
+  }
+
+  .app {
+    grid-template-rows: auto 1fr;
+    overflow-x: auto;
+  }
+
+  .but {
+    position: static;
+    margin-top: 0;
+  }
+
+
+  #mainli {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #mainli a {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  li a {
+    margin-left: 0;
+    color: white;
+  }
+}
+
+#login-button {
+  color: white;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: #8B0000;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+}
+
+
