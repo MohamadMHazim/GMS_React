@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GMS_React/static/css/main.97b4f32f.css",
-    "main.js": "/GMS_React/static/js/main.294e8639.js",
+    "main.js": "/GMS_React/static/js/main.c86dec35.js",
     "static/media/man-picking-up-a-fitness-barbell-vdiphsb8pi2ktc5c.jpg": "/GMS_React/static/media/man-picking-up-a-fitness-barbell-vdiphsb8pi2ktc5c.dd25c1374e0df16258cd.jpg",
     "static/media/Dashboard5.png": "/GMS_React/static/media/Dashboard5.03788e15a208f5cd073a.png",
     "static/media/Background.jpg": "/GMS_React/static/media/Background.f5a655d27033254bd09e.jpg",
@@ -25,10 +25,10 @@
     "static/media/Facebook-Logo.png": "/GMS_React/static/media/Facebook-Logo.e6d60028fec8aa6a432b.png",
     "index.html": "/GMS_React/index.html",
     "main.97b4f32f.css.map": "/GMS_React/static/css/main.97b4f32f.css.map",
-    "main.294e8639.js.map": "/GMS_React/static/js/main.294e8639.js.map"
+    "main.c86dec35.js.map": "/GMS_React/static/js/main.c86dec35.js.map"
   },
   "entrypoints": [
     "static/css/main.97b4f32f.css",
-    "static/js/main.294e8639.js"
+    "static/js/main.c86dec35.js"
   ]
 }
